@@ -1,0 +1,128 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+}
+h1 {
+	color: #3a241d;
+	text-align: center;
+}
+#left-container {
+	display: grid;
+	background-color: rgb(221, 166, 64);
+	width: 15%;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	height: 100%;
+	padding: 10px;
+	opacity: 0.7
+}
+
+#right-container {
+	display: grid;
+	background-color: rgb(221, 166, 64);
+	width: 15%;
+	right: 0px;
+	top: 0px;
+	position: absolute;
+	height: 100%;
+	padding: 10px;
+	opacity: 0.7
+}
+.plant-holder {
+	position: relative;
+	height: 12%;
+	left: -10px;
+}
+
+.plant {
+	position: absolute;
+	max-width: 500%;
+	max-height: 600%;
+	z-index: 2;
+}
+.jar-walls {
+	height: 80%;
+	width: 60%;
+	background: rgb(217, 224, 224);
+	border-radius: 1rem;
+	position: absolute;
+	bottom: 0.5%;
+	left: 20%;
+	opacity: 0.8;
+	z-index: 1;
+}
+
+.jar-top {
+	width: 50%;
+	height: 5%;
+	background: rgb(217, 224, 224);
+	position: absolute;
+	bottom: 80.5%;
+	left: 25%;
+	opacity: 0.7;
+	z-index: 1;
+}
+
+.jar-bottom {
+	width: 50%;
+	height: 1%;
+	background: rgb(217, 224, 224);
+	position: absolute;
+	bottom: 0%;
+	left: 25%;
+	opacity: 0.7;
+}
+
+.dirt {
+	width: 60%;
+	height: 10%;
+	background: brown;
+	position: absolute;
+	border-radius: 0 0 1rem 1rem;
+	bottom: 1%;
+	left: 20%;
+	opacity: 0.95;
+	z-index: -1;
+}
+
+.bubble1 {
+	background: cornflowerblue;
+	color:azure;
+	top: 60%;
+	left: 25%;
+	width: 2%;
+	height: 5%;
+	position: absolute;
+	opacity: 0.7;
+	border-radius: 3em;
+}
+
+.bubble2 {
+	background: cornflowerblue;
+	color:azure;
+	top: 67%;
+	left: 25%;
+	width: 2%;
+	height: 22%;
+	position: absolute;
+	opacity: 0.7;
+	border-radius: 3em;
+}
+
+.turtle1 {
+	top: 60.65%;
+	left: 35%;
+	width: 10%;
+	height: 10%;
+	position: absolute;
+	opacity: 0.95;
+	}
+
+.turtle2 {
+	top: 60.2%;
+	left: 60%;
+	width: 40%;
+	height: 35%;
+	position: absolute;
+	opacity: 0.95;
+	}
